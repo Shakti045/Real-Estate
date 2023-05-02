@@ -6,7 +6,7 @@ function Appcontextcreator({children}){
     const options = {
         method: 'GET',
         headers: {
-           'X-RapidAPI-Key': 'c226a29801msh228fceb09746a09p16adf9jsn910f898ee397',
+           'X-RapidAPI-Key':'c226a29801msh228fceb09746a09p16adf9jsn910f898ee397',
             'X-RapidAPI-Host': 'bayut.p.rapidapi.com'
         }
     };

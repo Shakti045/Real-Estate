@@ -6,7 +6,7 @@ import PopularApartmets from "../Components/Popularapartments";
 import Contact from "../Components/Contact";
 function Home(){
     return (
-        <div>
+        <div className=" flex flex-col gap-20 lg:block lg:gap-0">
       <Header></Header>
       <Menu></Menu>
       <Agents></Agents>

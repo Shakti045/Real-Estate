@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import Img from "./Lazyimage"
 function Card({imagelink,h1,h2,desc,btntext,btnlink}){
     return (
-        <div className="hover:scale-105 duration-500 text-white flex gap-4">
+        <div className="hover:scale-105 duration-500 text-white flex lg:flex-row flex-col gap-4  ">
           <div>
           <Img class={" h-[200px] w-[200px] "} src={imagelink}></Img>
            </div>

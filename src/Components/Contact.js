@@ -20,7 +20,7 @@ function Contact(){
          </div>
         </div>
         <div>
-            <Img class={" lg:mx-0 mx-11 mt-16 w-[20rem] h-[25rem] rounded-t-[15rem]"} src={cimage}></Img>
+            <Img class={" lg:mx-0 mx-5 mt-16 w-[20rem] h-[25rem] rounded-t-[15rem]"} src={cimage}></Img>
         </div>
         </div>
     )

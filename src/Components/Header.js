@@ -2,7 +2,7 @@ import heroimage from "../images/extras/hero-image.png"
 import CountUp from 'react-countup';
 function Header(){
     return (
-        <div className=" lg:flex justify-around items-center text-white w-[100vw] lg:h-[80vh] h-[90vh] bg-neutral-900">
+        <div className=" lg:flex justify-around items-center text-white w-[100vw] lg:h-[80vh]  bg-neutral-900">
          <div className=" flex  flex-col gap-14">
           <h1 className="  text-5xl">
             Discover <br></br> Most Suitable <br></br> Property
@@ -28,7 +28,7 @@ function Header(){
           <h2 className=" text-2xl text-blue-800">Forget All Difficulties In Finding Home</h2>
          </div>
          <div>
-           <img id="topimage" className=" animate border-4 border-blue-950 w-[20rem] h-[25rem] rounded-t-[15rem] " src={heroimage}></img>
+           <img id="topimage" className=" mx-5 lg:mx-0 animate border-4 border-blue-950 w-[20rem] h-[25rem] rounded-t-[15rem] " src={heroimage}></img>
          </div>
         </div>
     )

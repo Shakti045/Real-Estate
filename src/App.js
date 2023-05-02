@@ -7,7 +7,7 @@ import Search from "./Pages/Search";
 import Properydetail from "./Pages/Propertydetail";
 function App(){
     return (
-        <>
+        <div className=" bg-neutral-900">
        <Nav></Nav>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
@@ -16,7 +16,7 @@ function App(){
         <Route path="/properydetail/:id" element={<Properydetail></Properydetail>}></Route>
         <Route path="/search" element={<Search></Search>} ></Route>
       </Routes>
-        </>
+        </div>
     )
 }
 

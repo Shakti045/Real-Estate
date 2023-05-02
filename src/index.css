@@ -9,6 +9,11 @@
     transition-duration: 1s;
 
 }
+body{
+   width: 100vw;
+   overflow-x: hidden;
+
+}
 .animate:hover{
     transform:scale(1.2);
 }

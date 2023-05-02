@@ -3,12 +3,12 @@ import Img from "../Components/Lazyimage"
 function Propertyimages(props){
   
     return (
-        <div className=" relative w-[50vw] mx-auto">
+        <div className=" relative lg:w-[50vw] mx-auto">
             <Swiper slidesPerView={1}>
                 <Swipperbuttons></Swipperbuttons>
                 {
                   props.photos?props.photos.map((data,index)=>{
-                    return <div key={index}><SwiperSlide><Img class={" w-[50vw] h-[400px] rounded-lg"} src={data?.url}></Img></SwiperSlide></div>
+                    return <div key={index}><SwiperSlide><Img class={" lg:w-[50vw] h-[400px] w-[90vw] rounded-lg"} src={data?.url}></Img></SwiperSlide></div>
                 }):""
                 }
             </Swiper>
